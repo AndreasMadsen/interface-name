@@ -1,0 +1,27 @@
+{
+  "name": "interface-name",
+  "description": "Returns the interface name for an IP address",
+  "version": "0.2.0",
+  "author": "Andreas Madsen <amwebdk@gmail.com>",
+  "main": "./interface.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/AndreasMadsen/interface-name.git"
+  },
+  "keywords": [
+    "ip",
+    "interface",
+    "name"
+  ],
+  "devDependencies": {
+    "tap": "0.3.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "0.8",
+    "npm": "1"
+  }
+}
